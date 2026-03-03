@@ -43,7 +43,9 @@ class SimpleTokenizer:
         Use UNK for unknown words.
         """
         return [
-                    self.word_to_id.get(t, self.word_to_id[self.unk_token])
+                    self.
+                        word_to_id.
+                        get(t, self.word_to_id[self.unk_token])
                     for t in text.split()
                 ]
     
